@@ -25,13 +25,13 @@ int main()
 	cout << 10 + 17 / 3.0 + 4 << endl << endl;
 	cout << 10 + 17 % 3 + 4 << endl << endl;
 	
-	total = m / p + n - 10 * amount;
+	total = m / p + n - 10 * amount; // page 56 of A First Book of C++ #5a
 	
 	cout << total;
 	
 	cout << endl << endl;
 	 
-	total = amount / 5;
+	total = amount / 5; // page 56 of A First Book of C++ #5d
 	
 	cout << total;
 	
