@@ -17,10 +17,19 @@ int main()
 	int m = 50;
 	int n = 10;
 	int p = 5;
+	int total = 0;
 	
 	
-	amount = m / p + n - 10 * amount;
+	total = m / p + n - 10 * amount;
 	
-	cout << amount;
+	cout << total;
+	
+	cout << endl << endl;
+	 
+	total = amount / 5;
+	
+	cout << total;
+	
+	
 	return 0;
 }
