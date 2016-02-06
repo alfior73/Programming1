@@ -1,5 +1,5 @@
 /****************************************************************************** 
-    Filename: raymonda_2B.cpp
+    Filename: computeSumAndAverage.cpp
     Written by: Alfio Raymond
     Created on: 5 February 2016
     Description: compute sum and average of three numbers
