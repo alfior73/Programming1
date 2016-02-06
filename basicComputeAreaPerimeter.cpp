@@ -1,5 +1,5 @@
 /****************************************************************************** 
-    Filename: raymonda_2A.cpp
+    Filename: basicComputeAreaPerimeter.cpp
     Written by: Alfio Raymond
     Created on:  February 2016
     Description: compute area and perimeter
