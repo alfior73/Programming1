@@ -4,7 +4,7 @@
     Created on:  February 2016
     Description: compute area and perimeter
     Challenges: none
-    Copyright: ©2015 Alfio Raymond
+    Copyright: ©2016 Alfio Raymond
     Time Spent: 5 minutes
        
 ********************************************************************************/
