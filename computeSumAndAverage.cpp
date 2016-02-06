@@ -4,7 +4,7 @@
     Created on: 5 February 2016
     Description: compute sum and average of three numbers
     Challenges: none
-    Copyright: ©2015 Alfio Raymond
+    Copyright: ©2016 Alfio Raymond
     Time Spent: 5 minutes
        
 ********************************************************************************/
