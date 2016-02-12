@@ -16,7 +16,7 @@ using namespace std;
 
 int main() {
     
-    cout << fixed << setprecision(2);
+    cout << fixed << setprecision(3);
     
     const double PI = 3.1416;
     
