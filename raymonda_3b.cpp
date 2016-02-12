@@ -10,6 +10,7 @@
 
 #include <iostream>
 #include <iomanip>
+#include <cmath>
 
 using namespace std;
 
@@ -17,13 +18,13 @@ int main() {
     
     cout << fixed << setprecision(2);
     
-    const PI = 3.1416;
+    const double PI = 3.1416;
     
     cout << "Enter the radius of a circle: ";
     cin >> radius;
     cout << endl;
     
-    area = PI x pow(radius,2);
+    area = PI * pow(radius,2);
     
     cout << "The area of a circle is " << area << "." <<endl;
     
