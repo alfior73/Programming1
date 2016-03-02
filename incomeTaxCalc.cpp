@@ -1,6 +1,6 @@
 /*******************************
 
-Filename: incomeTacCalc.cpp
+Filename: incomeTaxCalc.cpp
 Written by: Alfio Raymond
 Created on: 1 March 2016
 Description:
