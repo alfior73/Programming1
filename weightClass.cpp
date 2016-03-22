@@ -81,7 +81,7 @@ int main() {
 	
 	cout << "Your vehicle's Wight Class is: " << wClass << endl;
 	cout << "Your vehicle's registration fee is: $"  << rFee << endl;
-	  	
+	  	ahfohyfiosdhfiodhyiogfhjaioj
 	cout << endl << endl << endl;
 	return 0;
 	
