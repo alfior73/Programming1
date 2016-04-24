@@ -71,7 +71,17 @@ int main()
 
       {//string concatenation 
 
-             results = "Bullfighting is a " << adjective1 << " sport which is very popular in " << geoLocation1 << ". A bullfighter is called a matador, and his equipment consists of a long, sharp " << noun2 << " called an " << Italian1 << ", and a bright red " << clothing1 << ". He waves his "<< noun2 << " at the bull, which makes the bull " << adjective2 << "and causes him to charge. The matador then goes through a series of " << adjective3 << " maneuvers to avoid getting caught on the bull\'s " << body1 << ". If the matador kills the bull, the spectators yell, \"" << Italian2 << " and throw their "<< plNoun1 <<" into the ring. If the bull wins, they yell " << exclamation1 << " and call for another matador. Bullfighting is a very " << adjective3 << " sport, but it will never be popular to America because Americans don't believe in cruelty to " << plNoun2 << "."; 
+             results = "Bullfighting is a " + adjective1 + " sport which is very popular in " + geoLocation1 +
+             ". A bullfighter is called a matador, and his equipment consists of a long, sharp " + noun2 +
+             " called an "  + Italian1 + ", and a bright red " + clothing1 + ". He waves his " + noun2 +
+             " at the bull, which makes the bull " + adjective2 +
+             "and causes him to charge. The matador then goes through a series of " + adjective3 +
+             " maneuvers to avoid getting caught on the bull\'s " + body1 +
+             ". If the matador kills the bull, the spectators yell, \"" + Italian2 + " and throw their "+
+             plNoun1 + " into the ring. If the bull wins, they yell " + exclamation1 +
+             " and call for another matador. Bullfighting is a very " + adjective3 +
+             " sport, but it will never be popular to America because Americans don't believe in cruelty to " +
+             plNoun2 + "."; 
 
              cout << results << endl;
 
