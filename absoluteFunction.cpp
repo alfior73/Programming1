@@ -2,43 +2,42 @@
 
 Filename: absoluteFunction.cpp
 Written by: Alfio Raymond
-Created on: 
-Description:
+Created on: 24 April 2016
+Description: create a file that output absolute value
 
 
 Copyright: ©2016 Alfio Raymond
-    
 *********************************/
+
 #include <iostream>
-#include <cmath>
 #include <iomanip>
 
 using namespace std;
 
-double findAbs(double value);
+double absValue(double value);
 
-int main() {
-
-	double value = 0.0;
-	
-	cout << "Enter a value to convert it to an absolue value: ";
-	cin >> value;
-	
-	cout << fixed << setprecision(2);
-	3
-	cout << "The number you entered: " << value << " has an absolute value of " << findAbs(value);
-
-	cout << endl << endl << endl;
-	return 0;
+int main()
+{
+    double userValue;
+    
+    cout << "Enter a value that you want converted to an absolute value: ";
+    cin >> userValue;
+    
+    cout << fixed << setprecision(2);
+    
+    cout << "The value you entered is " << userValue << " and the absolute value is " << absValue(userValue);
+    
+    return 0;
 }
 
-double findAbs(double value)
+double absValue(double value)
 {
-	double abs = 0.0;
-	
-	//Technically I didn't use the abs function according to instructions and this is my absolute value function.
-		
-	abs = fabs(value);
-	
-	return abs;
+    double abs;
+    
+    if(value < 0)
+        abs = value * -1;
+    else
+        abs = value;
+    
+    return abs;
 }
